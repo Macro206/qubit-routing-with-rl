@@ -1,6 +1,6 @@
 # Qubit Routing with Reinforcement Learning (RL)
 
-This repository contains code for a qubit routing procedure that makes use of RL. Originally developed by Matteo G. Pozzi as part of a Master's Thesis for the University of Cambridge Computer Laboratory. A paper on the subject is currently in the process of being published.
+This repository contains code for a qubit routing procedure that makes use of RL. Originally developed by Matteo G. Pozzi as part of a Master's Thesis for the University of Cambridge Computer Laboratory. A paper on the subject is available here: https://arxiv.org/abs/2007.15957.
 
 ## Intro to Qubit Routing
 
