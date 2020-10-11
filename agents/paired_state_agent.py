@@ -2,11 +2,11 @@
 import numpy as np
 import random
 
-from keras.models import Sequential
-from keras.layers import Dense
-from keras.optimizers import Adam
-from keras.models import model_from_json
-from keras import backend as K
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.models import model_from_json
+from tensorflow.keras import backend as K
 
 from annealers.paired_state_annealer import Annealer
 from utils.PER_memory_tree import Memory
