@@ -24,7 +24,7 @@ def perform_run(nrows, ncols, training_episodes):
 
     start_time = time_module.perf_counter()
 
-    train_model(environment, agent, training_episodes=training_episodes, circuit_generation_function=circuit_generation_function, should_print=False)
+    train_model(environment, agent, training_episodes=training_episodes, circuit_generation_function=circuit_generation_function, should_print=True)
 
     average_circuit_depth_overhead = 0.0
 
