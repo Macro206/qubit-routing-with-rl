@@ -1,6 +1,6 @@
 
 import numpy as np
-from environments.environment_v2 import Environment
+from environments.environment import Environment
 
 class IBMQ20Tokyo(Environment):
 
