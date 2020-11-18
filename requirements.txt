@@ -1,0 +1,8 @@
+
+tensorflow==2.1.0
+Keras==2.3.1
+qiskit==0.18.0
+pytket==0.5.4
+pytket-qiskit==0.4.1
+h5py==2.10.0
+matplotlib==3.3.3
