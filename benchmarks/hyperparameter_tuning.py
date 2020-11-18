@@ -7,11 +7,11 @@ import time as time_module
 from collections import deque
 from multiprocessing import Pool, cpu_count
 
-from agents_final.single_state_agent import DQNAgent
+from agents.single_state_agent import DQNAgent
 from environments.grid_environment import GridEnvironment
 from utils.experience_db import ExperienceDB
-from agents_final.model_trainer import train_model
-from agents_final.swap_scheduler import schedule_swaps
+from agents.model_trainer import train_model
+from agents.swap_scheduler import schedule_swaps
 
 use_random_circuits = False
 

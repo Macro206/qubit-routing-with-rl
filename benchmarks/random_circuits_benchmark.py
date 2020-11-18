@@ -7,12 +7,12 @@ import random
 
 from multiprocessing import Pool, cpu_count
 
-from agents_final.paired_state_agent import DQNAgent
+from agents.paired_state_agent import DQNAgent
 from environments.ibm_q20_tokyo import IBMQ20Tokyo
 from environments.rigetti_19q_acorn import Rigetti19QAcorn
 from utils.experience_db import ExperienceDB
-from agents_final.model_trainer import train_model
-from agents_final.swap_scheduler import schedule_swaps
+from agents.model_trainer import train_model
+from agents.swap_scheduler import schedule_swaps
 from utils.circuit_tools import generate_completely_random_circuit
 
 training_episodes = 100
