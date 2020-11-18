@@ -23,15 +23,8 @@ Please note: the "single state" agent was briefly trialled in the thesis but was
 
 ## Python package versions
 
-This code requires specific versions of a few libraries in order to run. I believe there have been some minor changes to those libraries in recent times, and I have not yet had the chance to update the code in response. I recommend installing the below versions of the required libraries, or you could even try fixing the code yourself to be compatible with the latest versions.
+This code requires **Python 3.7**, as well as specific versions of a few libraries in order to run. I believe there have been some minor changes to those libraries in recent times, and I have not yet had the chance to update the code in response. I recommend installing the relevant packages by running `pip install -r requirements.txt`, or you could even try fixing the code yourself to be compatible with the latest versions.
 
-- `Keras                    2.3.1`
-- `pytket                   0.5.4`   
-- `pytket-qiskit            0.4.1`
-- `qiskit                   0.18.0`
-- `tensorflow               2.1.0`
-
-Those should be the only specific requirements. Then of course there's a few classics, such as `numpy`.
 
 ## Disclaimer
 
